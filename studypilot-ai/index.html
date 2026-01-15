@@ -182,17 +182,7 @@ function updateProgress(){
  document.getElementById('progress').style.width=p+'%';
  document.getElementById('progressText').innerText=p+'% Completed';
 }
-</script>
-<button onclick="testFirebase()">Test Firebase</button>
-
-<script>
-function testFirebase() {
-   auth.createUserWithEmailAndPassword(email, password)
-
-    .then(() => alert("Firebase Connected Successfully"))
-    .catch(err => alert(err.message));
-}
-</script>
+ </script>
 <script>
 function signup() {
   const email = document.getElementById("signupEmail").value;
